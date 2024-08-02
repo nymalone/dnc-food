@@ -32,14 +32,14 @@ const products = [
   {
     id: 5,
     image: "https://via.placeholder.com/330",
-    description: "Pizza",
+    title: "Pizza",
     price: "RS80,00",
     description: "8 pedaços, borda de catupiry.",
   },
   {
     id: 6,
     image: "https://via.placeholder.com/330",
-    description: "Biscoito",
+    title: "Biscoito",
     price: "RS30,00",
     description: "Amenteigado com Nutella.",
   },
