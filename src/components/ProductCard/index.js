@@ -1,12 +1,12 @@
 import React from "react";
 import "./ProductCard.css";
 
-const ProductCard = ({ image, description, onAddClick }) => {
+const ProductCard = ({ image, title, onAddClick }) => {
   return (
     <div className="product-card">
-      <img src={image} alt={description} className="product-image" />
+      <img src={image} alt={title} className="product-image" />
       <div className="product-details">
-        <p>{description}</p>
+        <p>{title}</p>
         <button className="buy-button" onClick={onAddClick}>
           Adicionar
         </button>
